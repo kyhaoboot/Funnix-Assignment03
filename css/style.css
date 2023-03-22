@@ -1,0 +1,383 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+} */
+
+
+/* 
+section>.container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+} */
+
+
+/* 
+#nav-bar {
+    text-align: center;
+}
+ */
+
+
+/* ***************************************************************** */
+
+
+/* 1. Xây dựng phần ảnh Banner */
+
+
+/* ***************************************************************** */
+
+
+/* 2. Xây dựng Navbar */
+
+
+/* 
+#nav-bar {
+    text-align: center;
+}
+
+.nav-menu {
+    height: 200px;
+} */
+
+
+/* 
+#nav-bar a {
+    color: black
+}
+
+#nav-bar a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #cfcfcf;
+} */
+
+
+/* 
+#nav-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#nav-bar ul {
+    display: flex;
+} */
+
+
+/* #nav-bar ul li {
+    position: static;
+    white-space: nowrap;
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    justify-content: center;
+}
+
+.info li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+i {
+    color: #49b9f1;
+} */
+
+
+/* ****************************************************************** */
+
+
+/* 3. Xây dựng Thông tin cá nhân */
+
+
+/* 
+.container-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px solid #cfcfcf;
+} */
+
+
+/* .section-title {
+    
+} */
+
+
+/* #target {
+    margin-left: 300px;
+    border-right: 1px solid #cfcfcf;
+} */
+
+
+/* .text-info {
+    text-align: justify;
+    margin: 30px;
+} */
+
+
+/* .list-info {
+    list-style-type: none;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon-social li {
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+    padding-left: 15px;
+    color: #0abde3;
+} */
+
+
+/* ***************************************************************** */
+
+
+/* 4. Xây dựng thông tin nghề nghiệp */
+
+
+/* 
+#job-info {
+    margin: 30px 200px 50px 200px;
+} */
+
+
+/* .container-job {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+    align-items: start;
+} */
+
+
+/* .job-flex {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 20px 40px;
+    padding: 24px;
+    box-shadow: 0 10px 20px 0 rgba(34, 34, 34, 0.6);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f7f7f7;
+} */
+
+
+/* .job-box-ic {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(34, 34, 34, 0.6);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f7f7f7;
+} */
+
+
+/*6. xây dựng Ngôn ngữ và Kỹ năng */
+
+
+/* 
+.good {
+    background-color: #0abde3;
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.bad {
+    background-color: #cfcfcf;
+    display: inline-block;
+    height: 2px;
+    width: 45px;
+    margin-right: 10px;
+}
+ */
+
+
+/* ***************************************************************** */
+
+
+/* 7. Xây dựng phần chứng chỉ - Giải thưởng */
+
+
+/* 
+.img-cc {
+    width: 220px;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px 0 rgba(34, 34, 34, 0.6);
+}
+
+.cer-content {
+    display: flex;
+}
+
+.cer-row {
+    border-bottom: 1px solid #d6c08d;
+}
+
+.cer-content1 {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 2px solid #d6c08d;
+}
+
+.cer-content2 {
+    display: flex;
+    padding: 10px;
+ 
+}
+
+.title-cc {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.content h5 {
+    font-size: 16px;
+}
+
+.content p {
+    font-size: 12px;
+    color: #8e8b8b;
+}
+ */
+
+
+/* ******************************************************************************* */
+
+
+/* 8. Xây dựng phần Dự án */
+
+
+/* 
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    padding-top: 20px;
+}
+
+.project-flex {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px 0 rgba(34, 34, 34, 0.6);
+}
+
+.project-title {
+    padding: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+}
+
+.now {
+    font-size: 15px;
+    background-color: #0abde3;
+    border: 2px solid #0abde3;
+    padding: 10px;
+    border-radius: 35%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.project-span {
+    margin-right: 20px;
+    margin-left: 4px;
+}
+
+.project-border {
+    padding: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    border-bottom: 1px solid #cfcfcf;
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+
+td {
+    font-weight: 100;
+    padding: 10px;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+
+tr td:first-child {
+    width: 100px;
+    vertical-align: top;
+  
+    border-top: 1px solid #cfcfcf;
+}
+
+table {
+    border-collapse: collapse;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+} */
+
+
+/* ************************************************************* */
+
+
+/* 9. Xây dựng phần Liên hệ. */
+
+
+/* 
+#footer {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.5;
+    height: 80px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#footer a:link,
+a:visited {
+    font-size: 24px;
+    font-weight: 100;
+    margin-right: 20px;
+    color: #cfcfcf;
+}
+
+.icon-social a {
+    color: #cfcfcf;
+    text-decoration: none;
+} */
+
+
+/* 10. Nâng cao */
+
+
+/* 
+.avt-default {
+    position: initial;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.avt {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    transform: translate(-20%, 10%);
+} */
