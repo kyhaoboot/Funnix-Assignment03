@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    /* BACKGROUND */
+    .container {
+        background-color: blue;
+        padding: 20px;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 70% 30%;
+        gap: 45px;
+        margin: auto;
+        position: relative;
+    }
+    .container-4item {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 20px;
+    }
+    /* LAYOUT */
+    .scope {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .team {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .title {
+        color: blue;
+        padding: 10px 0 10px 10px;
+        border-bottom: 1px solid gainsboro;
+        text-transform: uppercase;
+    }
+    .goal,
+    .scope,
+    .team,
+    .primary {
+        background-color: aliceblue;
+        padding: 10px;
+    }
+    .timeline {
+        background-color: aliceblue;
+    }
+    /* GOALS , TEAM, PRIMARY */
+    .goal-content,
+    .team-content,
+    .primary-content {
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .goal-content,
+    .team-content,
+    .primary-content span {
+        font-size: 28px;
+        margin: 0 auto;
+    }
+    .content h6 {
+        font-size: 18px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    /* SCOPE */
+    .in {
+        display: inline-block;
+        float: left;
+        width: 50%;
+    }
+    .scope div {
+        padding: 10px;
+    }
+    .scope h2 {
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .scope p {
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    /* TIMELINE */
+    .timeline {
+        width: 300px;
+    }
+    .timeline-content {
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .timeline-content span {
+        font-size: 22px;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(229, 211, 247);
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        color: white;
+        padding-top: 8px;
+    }
+    .timeline-content>div {
+        border-bottom: 1px solid rgb(127, 217, 240);
+        padding: 5px;
+        line-height: 1.4;
+    }
+}
+
+
+/* Reposive mobile & mobile */
+
+@media screen and (max-width: 1023px) {
+    /* LAYOUT */
+    .container {
+        background-color: blue;
+        padding: 10px;
+    }
+    .title {
+        color: blue;
+        padding: 10px 0 10px 10px;
+        border-bottom: 1px solid gainsboro;
+        text-transform: uppercase;
+    }
+    /* GOALS , TEAM, PRIMARY */
+    .goal,
+    .scope,
+    .team,
+    .primary,
+    .timeline {
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 20px;
+    }
+    .goal-content,
+    .team-content,
+    .primary-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .goal-content,
+    .team-content,
+    .primary-content span {
+        font-size: 28px;
+        padding: 20px;
+    }
+    .goal-content span i {
+        /* padding-left: 100px; */
+    }
+    .team-content span i {
+        padding-left: 100px;
+    }
+    .primary-content span i {
+        padding-left: 100px;
+    }
+    .content h6 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .primary div {
+        padding: 10px;
+    }
+    .primary p {
+        font-size: 16px;
+    }
+    /* SCOPE */
+    .scope div {
+        padding: 20px;
+    }
+    .scope h2 {
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+    .scope p {
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    /* TIMELINE */
+    .timeline {
+        padding: 20px;
+    }
+    .timeline-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+    .timeline-content span {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(229, 211, 247);
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        color: white;
+        padding-top: 8px;
+    }
+    .timeline-content>div {
+        border-bottom: 1px solid rgb(127, 217, 240);
+        padding: 5px;
+        line-height: 1.4;
+    }
+    .goal-content {
+        position: relative;
+        padding: 40px;
+        /* margin: 20px; */
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .icon {
+        position: absolute;
+        right: 50%;
+    }
+}
